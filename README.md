@@ -75,8 +75,7 @@
    PRIMARY KEY (`id`),
    FOREIGN KEY (`user_id`) REFERENCES `user`(`id`) ON DELETE CASCADE
    ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
-
+   
    CREATE TABLE `expense` (
    `id` INT NOT NULL AUTO_INCREMENT,
    `car_id` INT NOT NULL,
